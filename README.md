@@ -5,14 +5,6 @@ Users create calendar events (busy slots), mark them as **SWAPPABLE**, browse ot
 
 ---
 
-## Live demo (optional)
-- Frontend: `<your-frontend-url>`  
-- Backend: `<your-backend-url>`
-
-(If not deployed, see **Local setup** below.)
-
----
-
 ## Tech stack
 - Frontend: React (Vite), React Router v6, Axios, Tailwind CSS  
 - Backend: Node.js (ES modules), Express, Mongoose (MongoDB)  
@@ -22,6 +14,7 @@ Users create calendar events (busy slots), mark them as **SWAPPABLE**, browse ot
 ---
 
 ## Project structure
+```bash
 SlotSwapper/
 ├── client/ # React frontend (Vite)
 │ ├── src/
@@ -37,7 +30,7 @@ SlotSwapper/
 │ └── .env.example
 ├── .gitignore
 └── README.md
-
+```
 ---
 
 ## Key design choices & notes
