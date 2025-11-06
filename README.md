@@ -51,7 +51,7 @@ SlotSwapper/
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/<your-username>/SlotSwapper.git
+git clone https://github.com/Manyata39/SlotSwapper.git
 ```
 ### 2. Backend setup
 ```bash
