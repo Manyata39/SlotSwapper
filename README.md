@@ -16,11 +16,11 @@ Users create calendar events (busy slots), mark them as **SWAPPABLE**, browse ot
 ## Project structure
 ```bash
 SlotSwapper/
-├── client/ # React frontend (Vite)
+├── frontend/ # React frontend (Vite)
 │ ├── src/
 │ ├── package.json
 │ └── .env.example
-├── server/ # Express backend (ES modules)
+├── backend/ # Express backend (ES modules)
 │ ├── config/
 │ ├── models/
 │ ├── routes/
@@ -76,6 +76,7 @@ npm install
 npm run dev            # starts Vite, usually at http://localhost:5173
 ```
 client/.env.example
+
 VITE_API_URL=http://localhost:5000/api
 
 ### 4. Register and test
